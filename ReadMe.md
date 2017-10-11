@@ -36,7 +36,7 @@ Challenges within each section are meant to be solved in order.
 1.  List the files with a particular extension, like `.txt`
     - `ls *.txt`
 1.  List the files in a subdirectory, like `project`
-    - `ls /subdirectory`
+    - `ls ./project`
 1.  Navigate to a subdirectory, like `project`
     - `cd project`
 1.  Navigate to the parent directory of your working directory
@@ -44,7 +44,9 @@ Challenges within each section are meant to be solved in order.
 1.  Navigate to a nested subdirectory, like `path/to/project`
     - `cd path/to/project`
 1.  Navigate to your home directory
-    - `cd /`
+    - 'cd ~'
+    - 'cd'
+    - `cd / - Root`
 1.  Navigate back to the previous directory
     - `cd -`
 
@@ -59,7 +61,7 @@ Challenges within each section are meant to be solved in order.
 1.  Set a variable `FULL_NAME` equal to your full name, then print its value
     - `FULL_NAME='Tony Cioara'` `echo FULL_NAME`
 1.  Print all environment variables (names and values)
-    - `set`
+    - `env`
 1.  Make an alias named `hello` that prints `Hello world`
     - `alias hello= echo "Hello World"`
 1.  Make an alias named `gocode` that navigates to your code directory
