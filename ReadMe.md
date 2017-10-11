@@ -42,6 +42,7 @@ Challenges within each section are meant to be solved in order.
 1.  Make an alias named `hello` that prints `Hello world`
     - `alias hello= echo "Hello World"`
 1.  Make an alias named `gocode` that navigates to your code directory
+    - `alias gocode= cd desktop/Core`
 1.  Print all aliases (names and values)
 
 ### Getting Help
